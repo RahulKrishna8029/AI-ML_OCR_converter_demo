@@ -62,8 +62,8 @@ def save_json_to_file(json_data, output_file):
         print(f"Failed to save JSON to file: {str(e)}")
 
 # Example usage
-file_path = "/Users/grahulkrishna/Downloads/raw_response.txt"  # Replace with the path to your text file
-output_file = "/Users/grahulkrishna/Downloads/structured_data.json"     # Specify the output JSON file path
+file_path = ""  # Replace with the path to your text file
+output_file = ""     # Specify the output JSON file path
 
 json_data = structure_text_to_json(file_path)
 if json_data:
