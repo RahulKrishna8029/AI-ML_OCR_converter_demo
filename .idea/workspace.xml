@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047ef880-04a0-42c8-8717-b48c3bf3638a" name="Changes" comment="The initial OCR extraction and enhancement through GPT API calls.&#10;Then verify with the path provided">
-      <change afterPath="$PROJECT_DIR$/.idea/LNKD.tech Editor.xml" afterDir="false" />
-    </list>
+    <list default="true" id="047ef880-04a0-42c8-8717-b48c3bf3638a" name="Changes" comment="The initial OCR extraction and enhancement through GPT API calls.&#10;Then verify with the path provided" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +33,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.azure_vison_read_OCR.executor": "Run",
+    "Python.cleaning_source_json.executor": "Run",
+    "Python.semantic_match&maP.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true"
@@ -57,7 +57,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727762102130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="The initial OCR extraction and enhancement through GPT API calls.&#10;Then verify with the path provided">
+      <option name="closed" value="true" />
+      <created>1727762288891</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727762288891</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
