@@ -75,7 +75,7 @@ for idx, match in enumerate(matched_indices):
         processed_keys.add(best_matching_key_source)  # Mark as processed
 
 # Step 7: Save the target JSON to a file
-target_json_path = "/Users/grahulkrishna/Downloads/structured_data.json.json"
+target_json_path = "" #add your file path
 with open(target_json_path, 'w') as f:
     json.dump(target_json_template, f, indent=4)
 
