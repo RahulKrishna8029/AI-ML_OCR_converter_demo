@@ -10,11 +10,11 @@ import numpy as np
 import cv2
 
 # Set up OpenAI API (replace with your OpenAI API key)
-openai.api_key = 'sk-proj-lh9HqmpAeI8npKCHLOv8T3BlbkFJRATOojxXrFHqiYUm0P7a'
+openai.api_key = ''
 
 # Azure API keys and endpoint (replace with your values)
-subscription_key = '19b62073f2004f0b83b26f52cb938fae'
-endpoint = 'https://lathasudharsanan.cognitiveservices.azure.com/'
+subscription_key = ''
+endpoint = ''
 read_api_url = endpoint + "vision/v3.2/read/analyze"
 
 # Function to convert PDF pages to images (one per page)
@@ -168,8 +168,8 @@ def main(pdf_path, output_json_path, raw_response_path):
         print("Failed to process and structure the text.")
 
 # Example usage
-pdf_path = '/Users/grahulkrishna/Downloads/MYDEEN_S_-_TVS_ZEST_INSURANCE_POLICY_-_1-MAY-2021_to_30-APR-2022.pdf'  # Specify your PDF path here
-output_json_path = '/Users/grahulkrishna/Downloads/structured_data.json'  # Specify your output JSON path here
-raw_response_path = '/Users/grahulkrishna/Downloads/raw_response.txt'  # Specify your raw response path here
+pdf_path = ''  # Specify your PDF path here
+output_json_path = ''  # Specify your output JSON path here
+raw_response_path = ''  # Specify your raw response path here
 
 main(pdf_path, output_json_path, raw_response_path)
